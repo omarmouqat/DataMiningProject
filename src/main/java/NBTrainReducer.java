@@ -12,6 +12,6 @@ public class NBTrainReducer extends Reducer<Text, IntWritable, Text, IntWritable
             sum += val.get();
         }
         result.set(sum);
-        context.write(key, result); // Output: Class_p    4000
+        context.write(key, result);
     }
 }
