@@ -37,3 +37,9 @@ build/
 ### Mac OS ###
 .DS_Store
 hdfs/
+archive/
+.idea/
+/.ipynb_checkpoints
+/out
+mushroom.data
+proce_train.csv
